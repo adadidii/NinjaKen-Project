@@ -1,0 +1,181 @@
+body {
+  font-family: sans-serif;
+}
+
+.header {
+  height: 75px;
+  background-color: #404146;
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  padding-left: 50px;
+  padding-right: 20px;
+  float: left;
+  font-size: 30px;
+  letter-spacing: 7px;
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+  color: white;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-list li {
+  float: left;
+  margin-right: 20px;
+}
+
+.header p {
+  color: white;
+}
+
+.profile {
+  height: 550px;
+}
+
+.profile-title {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.profile-title h1 {
+  letter-spacing: 10px;
+  font-weight: bold;
+  font-size: 90px;
+  margin-bottom: 8px;
+}
+
+span {
+  color: darkgoldenrod;
+}
+
+.profile-title h2 {
+  letter-spacing: 2px;
+  font-size: 40px;
+}
+
+.profile-image {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image img {
+  height: 200px;
+}
+
+.about {
+  height: 300px;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+}
+
+.about-text {
+  text-align: center;
+  padding: 50px 100px;
+}
+
+.project {
+  height: 450px;
+}
+
+.project h3 {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+.project-image {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-image img {
+  height: 200px;
+}
+
+.project-text {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.message {
+  height: 400px;
+  background-color: whitesmoke;
+}
+
+.message h3 {
+  padding-top: 70px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.message-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 300px;
+  gap: 20px;
+}
+
+.message input {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.message textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  line-height: normal;
+  font-family: sans-serif;
+}
+
+.message button {
+  padding: 10px;
+  width: 350px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(240, 231, 106);
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  background-color: #6d6d6f;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 30px;
+  letter-spacing: 7px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 50px;
+  padding-left: 30px;
+}
+
+.footer-list {
+  padding: 30px;
+}
+
+.footer-list li {
+  margin-bottom: 15px;
+}
