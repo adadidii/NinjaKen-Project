@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px) {
+    .header-logo {
+        font-size: 25px;
+    }
+
+    .profile-title h1 {
+        font-size: 70px;
+
+    }
+
+    .message-form {
+        padding: 20px 100px;
+    }
+}     
