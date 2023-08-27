@@ -1,14 +1,75 @@
 @media screen and (max-width: 768px) {
-    .header-logo {
-        font-size: 25px;
-    }
+  .header-logo {
+    font-size: 25px;
+  }
 
-    .profile-title h1 {
-        font-size: 70px;
+  .profile-title h1 {
+    font-size: 70px;
+  }
 
-    }
+  .message-form {
+    padding: 20px 100px;
+  }
+}
 
-    .message-form {
-        padding: 20px 100px;
-    }
-}     
+@media screen and (max-width: 480px) {
+  .header {
+    width: 550px;
+  }
+
+  .header-logo {
+    font-size: 20px;
+    letter-spacing: 5px;
+    padding-left: 25px;
+    padding-right: 5px;
+  }
+
+  .header-list li {
+    font-size: 13px;
+    margin-right: 10px;
+  }
+
+  .header-list ul {
+    padding-left: 20px;
+  }
+
+  .profile {
+    width: 550px;
+    margin: 0 auto;
+  }
+
+  .about {
+    width: 550px;
+    height: 350px;
+    margin-top: 60px;
+  }
+
+  .project {
+    width: 550px;
+    height: 900px;
+  }
+
+  .project h3 {
+    padding-top: 20px;
+  }
+
+  .project-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-image img {
+    height: 220px;
+    width: 220px;
+    padding-bottom: 30px;
+  }
+
+  .message {
+    width: 550px;
+  }
+
+  .footer {
+    width: 550px;
+  }
+}
