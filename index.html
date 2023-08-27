@@ -5,21 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="stylesheet.css" />
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!--Efek smooth-scroll, ditempatkan di file head HTML, untuk memastikan kompatibilitas browser-->
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
     <title>Adi Nugroho - Portofolio Saya</title>
   </head>
 
   <body>
     <!-- Header Section -->
-    <div class="header">
+    <div class="header" id="navigasi">
       <div class="header-logo">
         <p>ADI NUGROHO</p>
       </div>
       <div class="header-list">
         <ul>
-          <li>Tentang Saya</li>
-          <li>Proyek Contoh</li>
-          <li>Hubungi Saya</li>
+          <li><a href="#tentang">Tentang Saya</a></li>
+          <li><a href="#proyek">Proyek Contoh</a></li>
+          <li><a href="#pesan">Hubungi Saya</a></li>
         </ul>
       </div>
     </div>
@@ -31,12 +43,12 @@
         <h2>MY PORTFOLIO</h2>
       </div>
       <div class="profile-image">
-        <img src="Ninja Ken.png" alt="Foto Saya" />
+        <img src="assets/Ninja Ken.png" alt="Foto Saya" />
       </div>
     </div>
 
     <!-- About Section -->
-    <div class="about">
+    <div class="about" id="tentang">
       <div class="about-text">
         <h3>Tentang Saya</h3>
         <p>
@@ -52,12 +64,12 @@
     </div>
 
     <!-- Project Section -->
-    <div class="project">
+    <div class="project" id="proyek">
       <h3>Proyek Contoh</h3>
       <div class="project-image">
-        <img src="1.png" alt="foto1" />
-        <img src="2.png" alt="foto2" />
-        <img src="3.png" alt="foto3" />
+        <img src="assets/1.png" alt="foto1" />
+        <img src="assets/2.png" alt="foto2" />
+        <img src="assets/3.png" alt="foto3" />
       </div>
       <div class="project-text">
         <p>Image 1</p>
@@ -67,7 +79,7 @@
     </div>
 
     <!-- Contact-us Section-->
-    <div class="message">
+    <div class="message" id="pesan">
       <h3>Hubungi Saya</h3>
       <div class="message-form">
         <input type="email" placeholder="Email (Diperlukan)" />
@@ -80,12 +92,12 @@
 
     <!-- Footer Section -->
     <div class="footer">
-      <div class="footer-logo">ADI</div>
+      <div class="footer-logo"><a href="#navigasi">ADI</a></div>
       <div class="footer-list">
         <ul>
-          <li>Tentang Saya</li>
-          <li>Proyek Contoh</li>
-          <li>Hubungi Saya</li>
+          <li><a href="#tentang">Tentang Saya</a></li>
+          <li><a href="#proyek">Proyek Contoh</a></li>
+          <li><a href="#pesan">Hubungi Saya</a></li>
         </ul>
       </div>
     </div>
