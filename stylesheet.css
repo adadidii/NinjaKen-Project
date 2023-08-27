@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .header {
@@ -20,6 +20,11 @@ body {
 
 li {
   list-style: none;
+  color: white;
+}
+
+li a {
+  text-decoration: none;
   color: white;
 }
 
@@ -47,10 +52,11 @@ li {
 }
 
 .profile-title h1 {
-  letter-spacing: 10px;
+  letter-spacing: 9px;
   font-weight: bold;
   font-size: 90px;
-  margin-bottom: 8px;
+  font-family: "Poppins", serif;
+  margin: 30px 30px 0 30px;
 }
 
 span {
@@ -60,15 +66,17 @@ span {
 .profile-title h2 {
   letter-spacing: 2px;
   font-size: 40px;
+  margin: 0;
 }
 
 .profile-image {
   display: flex;
   justify-content: center;
+  padding-top: 30px;
 }
 
 .profile-image img {
-  height: 200px;
+  height: 250px;
 }
 
 .about {
@@ -170,6 +178,11 @@ span {
   color: white;
   margin-bottom: 50px;
   padding-left: 30px;
+}
+
+.footer-logo a {
+  text-decoration: none;
+  color: white;
 }
 
 .footer-list {
