@@ -86,10 +86,44 @@
     <div class="message" id="pesan">
       <h3>Hubungi Saya</h3>
       <div class="message-form">
-        <input type="email" placeholder="Email (Diperlukan)" />
+        <input type="email" id="email" placeholder="Email (Diperlukan)" />
+        <p id="notifEmail"></p>
         <textarea placeholder="Message (Diperlukan)"></textarea>
         <div class="button-container">
           <button>Kirim</button>
+        </div>
+      </div>
+    </div>
+
+    <!--FAQ Section-->
+    <div class="faq">
+      <div class="faq-title">
+        <h3>Frequently Asked Question (FAQ)</h3>
+      </div>
+      <div class="fac-accordion">
+        <button class="accordion">
+          Proyek apa saja yang sudah dikerjakan?
+        </button>
+        <div class="panel">
+          <p>Banyak sekali projeknya, seperti:</p>
+          <p>Content Writer</p>
+          <p>Web Dev</p>
+        </div>
+
+        <button class="accordion">
+          Apa yang Anda ingin lakukan selanjutnya?
+        </button>
+        <div class="panel">
+          <p>Kerjasama dengan pihak lain</p>
+          <p>Belajar terus</p>
+          <p>Menikah</p>
+        </div>
+
+        <button class="accordion">Bagaimana caranya?</button>
+        <div class="panel">
+          <p>Terus semangat</p>
+          <p>Selalu berdoa</p>
+          <p>Konsisten terus menerus</p>
         </div>
       </div>
     </div>
@@ -105,5 +139,8 @@
         </ul>
       </div>
     </div>
+
+    <!-- Script Init-->
+    <script src="script.js"></script>
   </body>
 </html>
